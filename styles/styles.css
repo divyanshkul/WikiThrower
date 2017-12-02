@@ -1,21 +1,18 @@
-html { 
-    background: url(../images/break_pink.svg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    }
- wikiMainLogo{
- 	margin-left: 20px;
- 	margin-top: 40px;
 
- }
  .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #f0f8ff;
+    background-color: #E4FDFF;
     color: #808080;
     text-align: center;
+}
+.resultsClass{
+    margin-top: 10px;
+
+    font-family: 'Exo 2', sans-serif;
+}
+.wikiMainLogo{
+    margin-top: 20px;
 }
