@@ -1,18 +1,23 @@
 
+ @font-face {
+    font-family: 'Exo'; 
+    src: url('fonts/Exo2-Regular');
+}
  .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #E4FDFF;
+    background-color: #e8ecf0 ;
     color: #808080;
     text-align: center;
 }
 .resultsClass{
     margin-top: 10px;
 
-    font-family: 'Exo 2', sans-serif;
+    font-family: Exo, sans-serif;
 }
 .wikiMainLogo{
     margin-top: 20px;
 }
+
