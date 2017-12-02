@@ -1,6 +1,6 @@
 function wikipediaSearch() {
-  document.getElementById("returnedResults").innerHTML = "";
-  var searchtext = document.getElementById("inputTF").value;
+   document.getElementById("returnedResults").innerHTML = "";
+   var searchtext = document.getElementById("inputTF").value;
     $.getJSON(
       "https://en.wikipedia.org/w/api.php?action=opensearch&search=" + searchtext + "&format=json&callback=?",
       function(result) {
